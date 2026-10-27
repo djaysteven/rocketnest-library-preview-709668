@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page not found · RocketNest Design</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0A0A0B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+@font-face{font-family:Unbounded;src:url(/fonts/unbounded.woff2) format("woff2");font-weight:200 900;font-display:swap}
+@font-face{font-family:Sora;src:url(/fonts/sora.woff2) format("woff2");font-weight:100 800;font-display:swap}
+@font-face{font-family:Prompt;src:url(/fonts/prompt-thai-SemiBold.woff2) format("woff2");font-weight:500 700;font-display:swap;unicode-range:U+E01-E5B,U+200C-200D,U+25CC}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%}
+body{background:#0a0a0b;color:#fff;font-family:Sora,Prompt,system-ui,-apple-system,"Segoe UI",sans-serif;display:grid;place-items:center;padding:clamp(20px,5vw,72px);overflow:hidden;
+ background-image:radial-gradient(60% 50% at 70% 30%,rgba(0,157,254,.16),transparent 70%),radial-gradient(40% 40% at 15% 90%,rgba(253,114,3,.10),transparent 70%)}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;
+ background-image:radial-gradient(1px 1px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 78% 12%,#fff,transparent),radial-gradient(1.4px 1.4px at 34% 72%,#7cc8ff,transparent),radial-gradient(1px 1px at 88% 64%,#fff,transparent),radial-gradient(1px 1px at 56% 38%,#fff,transparent),radial-gradient(1.2px 1.2px at 22% 48%,#fff,transparent),radial-gradient(1px 1px at 64% 88%,#fff,transparent),radial-gradient(1.4px 1.4px at 92% 30%,#7cc8ff,transparent)}
+main{position:relative;max-width:640px;text-align:center}
+.mark{width:120px;height:auto;display:block;margin:0 auto 28px;animation:drift 6s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-12px) rotate(4deg)}}
+@media (prefers-reduced-motion:reduce){.mark{animation:none}}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#fec00f;margin-bottom:16px}
+h1{font-family:Unbounded,Prompt,system-ui,sans-serif;font-weight:800;font-size:clamp(34px,7vw,64px);line-height:1.02;letter-spacing:-.02em}
+h1 em{font-style:normal;color:#009dfe}
+p.lede{color:#9aa3b2;font-size:clamp(15px,2vw,18px);line-height:1.6;margin:18px auto 30px;max-width:460px}
+p.alt{color:#6b7380;font-size:13px;line-height:1.7;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;background:#009dfe;color:#fff;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 10px 40px -10px rgba(0,157,254,.7);transition:transform .25s cubic-bezier(.2,.7,.1,1),box-shadow .25s}
+.btn:hover,.btn:focus-visible{transform:translateY(-2px);box-shadow:0 14px 48px -10px rgba(0,157,254,.9)}
+.btn:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.word{display:block;width:132px;height:auto;margin:40px auto 0;opacity:.8}
+</style>
+</head>
+<body>
+<main>
+  <img class="mark" src="/rocketnest-mark.svg" alt="" width="120" height="137">
+  <p class="eyebrow">Error 404</p>
+  <h1>Lost in <em>space.</em></h1>
+  <p class="lede">This page drifted out of orbit. Head back to the launchpad.</p>
+  <a class="btn" href="/">Back to RocketNest<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <p class="alt"><a href="/?lang=th" lang="th" style="color:inherit">ไม่พบหน้านี้ · กลับสู่หน้าแรก</a><br><a href="/?lang=nl" lang="nl" style="color:inherit">Pagina niet gevonden · Terug naar de startpagina</a></p>
+  <img class="word" src="/img/wordmark.svg" alt="RocketNest Design" width="150" height="34">
+</main>
+</body>
+</html>

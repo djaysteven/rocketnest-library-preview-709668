@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RocketNest Design · Your old website, relaunched</title>
+<meta name="description" content="RocketNest Design rebuilds outdated business websites as fast, modern, mobile-first sites in your customers' languages. Try your new site free before you decide.">
+<meta name="theme-color" content="#0A0A0B">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://rocketnestdesign.com/">
+<link rel="alternate" hreflang="en" href="https://rocketnestdesign.com/">
+<link rel="alternate" hreflang="th" href="https://rocketnestdesign.com/?lang=th">
+<link rel="alternate" hreflang="nl" href="https://rocketnestdesign.com/?lang=nl">
+<link rel="alternate" hreflang="x-default" href="https://rocketnestdesign.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RocketNest Design">
+<meta property="og:title" content="RocketNest Design · Your old website, relaunched">
+<meta property="og:description" content="Modern, mobile-first websites in your customers' languages. Try yours free before you decide.">
+<meta property="og:url" content="https://rocketnestdesign.com/">
+<meta property="og:image" content="https://rocketnestdesign.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RocketNest Design logo: a white rocket launching from a blue and white nest">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="nl_BE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RocketNest Design · Your old website, relaunched">
+<meta name="twitter:description" content="Modern, mobile-first websites in your customers' languages. Try yours free before you decide.">
+<meta name="twitter:image" content="https://rocketnestdesign.com/og-image.jpg">
+<link rel="icon" href="/rocketnest-library-preview-709668/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/rocketnest-library-preview-709668/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/rocketnest-library-preview-709668/apple-touch-icon.png">
+<link rel="manifest" href="/rocketnest-library-preview-709668/site.webmanifest">
+<link rel="preload" href="/rocketnest-library-preview-709668/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/rocketnest-library-preview-709668/fonts/sora.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"RocketNest Design","url":"https://rocketnestdesign.com","logo":"https://rocketnestdesign.com/favicon-512.png","image":"https://rocketnestdesign.com/og-image.jpg","email":"info@rocketnestdesign.com","description":"Modern, mobile-first websites in your customers' languages. Based in Thailand & Belgium.","founder":[{"@type":"Person","name":"Steven"},{"@type":"Person","name":"Peter"}],"knowsLanguage":["en","th","nl"]}
+</script>
+<script>
+  // Decide motion/quality before paint so the preloader & fallback don't flash.
+  (function(){var d=document.documentElement;d.classList.remove('no-js');d.classList.add('js');
+  try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('rn-lang');if(l==='th'||l==='nl'){d.lang=l;d.classList.add('lang-'+l)}}catch(e){}
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm');
+  if(innerWidth<900||matchMedia('(pointer:coarse)').matches)d.classList.add('lite');})();
+</script>
+  <script type="module" crossorigin src="/rocketnest-library-preview-709668/assets/index-CjaWkhdl.js"></script>
+  <link rel="stylesheet" crossorigin href="/rocketnest-library-preview-709668/assets/index-X9vavwff.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<div class="preloader" aria-hidden="true">
+  <div class="pl-inner">
+    <div class="pl-mark">
+      <img src="/rocketnest-library-preview-709668/rocketnest-mark.svg" alt="" width="120" height="137" class="pl-ghost">
+      <div class="pl-fill"><img src="/rocketnest-library-preview-709668/rocketnest-mark.svg" alt="" width="120" height="137"></div>
+    </div>
+    <div class="pl-meta"><span class="pl-label" data-i18n="preload">Fuelling</span><span class="pl-count">000</span></div>
+  </div>
+</div>
+
+<div class="space" aria-hidden="true">
+  <div class="nebula"></div>
+  <canvas id="gl"></canvas>
+  <div class="fallback2d">
+    <canvas id="stars2d"></canvas>
+    <div class="fb-logo"></div>
+  </div>
+  <div class="vignette"></div>
+</div>
+
+<div class="cursor" aria-hidden="true"><div class="c-dot"></div><div class="c-ring"><span class="c-label"></span></div></div>
+
+<header class="hdr">
+  <a class="hdr-logo" href="#top" aria-label="RocketNest Design, back to top">
+    <img src="/rocketnest-library-preview-709668/rocketnest-mark.svg" alt="" width="34" height="39" class="hdr-mark">
+    <img src="/rocketnest-library-preview-709668/img/wordmark.svg" alt="RocketNest Design" width="150" height="34" class="hdr-word">
+  </a>
+  <nav class="hdr-nav" aria-label="Main">
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#process" data-i18n="nav.process">Process</a>
+    <a href="#showcase" data-i18n="nav.work">Demos</a>
+    <a href="#editor" data-i18n="nav.editor">Editor</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+  </nav>
+  <div class="hdr-tools">
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="th" aria-pressed="false" lang="th">TH</button>
+      <button type="button" data-lang="nl" aria-pressed="false" lang="nl">NL</button>
+    </div>
+    <button type="button" class="snd" aria-pressed="false" aria-label="Sound off. Turn ambient sound on" data-cursor="sound">
+      <span class="bars"><i></i><i></i><i></i><i></i></span>
+    </button>
+    <a class="btn btn-sm hdr-cta" href="#contact" data-i18n="nav.cta">Free demo</a>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" hidden>
+  <nav aria-label="Mobile">
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#process" data-i18n="nav.process">Process</a>
+    <a href="#showcase" data-i18n="nav.work">Demos</a>
+    <a href="#editor" data-i18n="nav.editor">Editor</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <a class="btn" href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a>
+</div>
+
+<aside class="hud" aria-hidden="true">
+  <div class="hud-track"><div class="hud-fill"></div></div>
+  <div class="hud-stage"><span class="hud-num">00</span><span class="hud-name">Nest</span></div>
+  <div class="hud-alt">ALT <span class="hud-alt-v">0000.0</span> km</div>
+</aside>
+
+<main id="main">
+
+<!-- 00 HERO -->
+<section class="sec hero" id="top" data-stage="0" data-name="Nest">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Web design studio</p>
+      <h1 class="display split" data-i18n="hero.title">Your old website, <em>relaunched.</em></h1>
+      <p class="lede" data-i18n="hero.lede">We rebuild outdated business websites as fast, modern, mobile-first sites in your customers' languages. You try yours free before you decide.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#contact" data-cursor="launch"><span data-i18n="hero.cta1">Start your launch</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#showcase" data-i18n="hero.cta2">See demo concepts</a>
+      </div>
+    </div>
+    <img class="hero-mark" src="/rocketnest-library-preview-709668/rocketnest-mark.svg" alt="" width="487" height="557" fetchpriority="high">
+    <img class="hero-static" src="/rocketnest-library-preview-709668/img/logo-full.svg" alt="RocketNest Design logo" width="640" height="600">
+  </div>
+  <a class="scroll-hint" href="#upgrade"><span data-i18n="hero.scroll">Scroll to launch</span><i></i></a>
+</section>
+
+<!-- 01 UPGRADE -->
+<section class="sec upgrade" id="upgrade" data-stage="1" data-name="Ignition">
+  <div class="sticky">
+    <div class="wrap up-grid">
+      <div class="up-copy">
+        <p class="eyebrow"><b>01</b> <span data-i18n="up.eyebrow">The old site</span></p>
+        <h2 class="h2 split" data-i18n="up.title">Most business websites were built for a different decade.</h2>
+        <p class="body" data-i18n="up.body">Tiny text on phones, slow pages, broken links, photos that don't do the place justice. Customers judge you on that screen before they ever walk in.</p>
+        <p class="punch" data-i18n="up.punch">So we don't send a quote. We send your new website.</p>
+      </div>
+      <div class="morph" aria-label="Illustration: an old website upgrading into a modern one" role="img">
+        <div class="mx-bar"><i></i><i></i><i></i><span class="mx-url">www.your-business.com</span></div>
+        <div class="mx-stage">
+          <div class="mx-old">
+            <div class="o-marq"><span>*** WELCOME TO OUR WEBSITE !!! *** BEST PRICE *** WELCOME ***</span></div>
+            <div class="o-title">Your&nbsp;Business&nbsp;Online</div>
+            <div class="o-row"><div class="o-img"></div><div class="o-txt"><u>Home</u> | <u>Rooms</u> | <u>Contact</u><br>Please click here for more informations about our services and price list. Best view with 1024x768.</div></div>
+            <table class="o-tbl"><tr><td>Price</td><td>Call</td><td>Fax</td></tr><tr><td>..........</td><td>012-xxx</td><td>012-xxx</td></tr></table>
+            <div class="o-count">Visitors: 004213 · Last update 2014</div>
+          </div>
+          <div class="mx-new">
+            <div class="n-nav"><b></b><span></span><span></span><span></span><em>Book</em></div>
+            <div class="n-hero"><div class="n-h">Your Business</div><div class="n-s"></div><div class="n-btns"><i></i><i></i></div></div>
+            <div class="n-cards"><i></i><i></i><i></i></div>
+            <div class="n-chip">EN · ES · DE</div>
+          </div>
+          <div class="mx-scan"></div>
+        </div>
+        <div class="mx-meter"><span data-i18n="up.meter">Upgrade</span><b class="mx-pct">0%</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 SERVICES -->
+<section class="sec services" id="services" data-stage="2" data-name="Liftoff">
+  <div class="wrap">
+    <p class="eyebrow"><b>02</b> <span data-i18n="sv.eyebrow">What we build</span></p>
+    <h2 class="h2 split" data-i18n="sv.title">Everything your business needs to reach orbit.</h2>
+    <div class="sv-grid">
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M14 25h4"/></svg></span><h3 data-i18n="sv1.t">Modern, mobile-first websites</h3><p data-i18n="sv1.d">Fast, clean sites built for the phone first, with your real photos, your story and clear contact buttons.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c4 4 4 20 0 24M16 4c-4 4-4 20 0 24"/></svg></span><h3 data-i18n="sv2.t">Multilingual, built in</h3><p data-i18n="sv2.d">Your site speaks your customers' languages, with a clean language switch on every page.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 7h22v15H13l-6 5v-5H5z"/><path d="M10 13h12M10 17h8"/></svg></span><h3 data-i18n="sv3.t">Bookings, inquiries &amp; chat</h3><p data-i18n="sv3.d">Booking and inquiry forms, plus one-tap buttons for chat apps, phone and email. Want to sell online? We build webshops too.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 26l2-7L21 6l5 5-13 13z"/><path d="M18 9l5 5"/></svg></span><h3 data-i18n="sv4.t">Your own editor</h3><p data-i18n="sv4.d">A private /admin page where you change promos, text and photos yourself.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="18" rx="2"/><circle cx="12" cy="14" r="2.5"/><path d="M4 22l7-6 5 4 4-3 8 6"/></svg></span><h3 data-i18n="sv5.t">Photo upscaling &amp; enhancement</h3><p data-i18n="sv5.d">We sharpen and upscale the photos you already have, so they look great on big, modern screens.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8"/><path d="M20 20l7 7"/><path d="M11 14l2 2 4-4"/></svg></span><h3 data-i18n="sv6.t">Logo refresh &amp; SEO basics</h3><p data-i18n="sv6.d">We modernize your existing logo instead of replacing it, set up SEO basics in every language and tidy up your Google Business listing.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 03 PROCESS -->
+<section class="sec process" id="process" data-stage="3" data-name="Ascent">
+  <div class="sticky">
+    <div class="wrap">
+      <p class="eyebrow"><b>03</b> <span data-i18n="pr.eyebrow">How it works</span></p>
+      <h2 class="h2 split" data-i18n="pr.title">From old site to liftoff in four steps.</h2>
+      <ol class="steps">
+        <li class="step"><span class="t">T–3</span><h3 data-i18n="pr1.t">Find</h3><p data-i18n="pr1.d">We look for businesses whose website is holding them back: hotels, restaurants, cafés, clinics, studios, rentals and more.</p></li>
+        <li class="step"><span class="t">T–2</span><h3 data-i18n="pr2.t">Rebuild</h3><p data-i18n="pr2.d">We rebuild your site for free as a modern, mobile-first demo, using your real content, photos and logo.</p></li>
+        <li class="step"><span class="t">T–1</span><h3 data-i18n="pr3.t">Try it free</h3><p data-i18n="pr3.d">Click through it on your own phone. Not your style? Ask for one free alternative design.</p></li>
+        <li class="step"><span class="t">T–0</span><h3 data-i18n="pr4.t">Launch</h3><p data-i18n="pr4.d">Like it? It becomes yours at a competitive price, and we put it live for you.</p></li>
+      </ol>
+      <div class="steps-line" aria-hidden="true"><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 BEFORE / AFTER -->
+<section class="sec ba" id="before-after" data-stage="4" data-name="Orbit">
+  <div class="wrap">
+    <p class="eyebrow"><b>04</b> <span data-i18n="ba.eyebrow">Before / after</span></p>
+    <h2 class="h2 split" data-i18n="ba.title">Same business. New orbit.</h2>
+    <p class="body" data-i18n="ba.body">A real business's current public website next to the free demo concept we built for it. Open one to compare up close.</p>
+    <div class="ba-grid">
+      <button type="button" class="ba-card reveal" data-ba="loft" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-loft-old-640.avif 640w, /rocketnest-library-preview-709668/img/ba-loft-old.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-before" src="/rocketnest-library-preview-709668/img/ba-loft-old-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-loft-old-640.webp 640w, /rocketnest-library-preview-709668/img/ba-loft-old.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-loft-new-640.avif 640w, /rocketnest-library-preview-709668/img/ba-loft-new.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-after" src="/rocketnest-library-preview-709668/img/ba-loft-new-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-loft-new-640.webp 640w, /rocketnest-library-preview-709668/img/ba-loft-new.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>Loft Hotel</b><span data-i18n="ba.k1">Boutique hotel</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
+      <button type="button" class="ba-card reveal" data-ba="scandia" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-scandia-old-640.avif 640w, /rocketnest-library-preview-709668/img/ba-scandia-old.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-before" src="/rocketnest-library-preview-709668/img/ba-scandia-old-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-scandia-old-640.webp 640w, /rocketnest-library-preview-709668/img/ba-scandia-old.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-scandia-new-640.avif 640w, /rocketnest-library-preview-709668/img/ba-scandia-new.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-after" src="/rocketnest-library-preview-709668/img/ba-scandia-new-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-scandia-new-640.webp 640w, /rocketnest-library-preview-709668/img/ba-scandia-new.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>Scandia Beach</b><span data-i18n="ba.k2">Beach hotel</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
+      <button type="button" class="ba-card reveal" data-ba="maxx" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-maxx-old-640.avif 640w, /rocketnest-library-preview-709668/img/ba-maxx-old.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-before" src="/rocketnest-library-preview-709668/img/ba-maxx-old-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-maxx-old-640.webp 640w, /rocketnest-library-preview-709668/img/ba-maxx-old.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <picture><source type="image/avif" srcset="/rocketnest-library-preview-709668/img/ba-maxx-new-640.avif 640w, /rocketnest-library-preview-709668/img/ba-maxx-new.avif 1280w" sizes="(max-width: 899px) 92vw, 380px"><img class="ba-after" src="/rocketnest-library-preview-709668/img/ba-maxx-new-640.webp" srcset="/rocketnest-library-preview-709668/img/ba-maxx-new-640.webp 640w, /rocketnest-library-preview-709668/img/ba-maxx-new.webp 1280w" sizes="(max-width: 899px) 92vw, 380px" alt="" width="1280" height="800" loading="lazy" decoding="async"></picture>
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>MaxxCentral</b><span data-i18n="ba.k3">Serviced residences</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
+    </div>
+    <p class="fine" data-i18n="ba.note">Before: their current public website (screenshot, Oct 2026). After: our demo concept. Not client projects.</p>
+  </div>
+</section>
+
+<dialog class="ba-modal" aria-labelledby="ba-mt">
+  <div class="ba-mbox">
+    <div class="ba-mhead"><h3 id="ba-mt">Loft Hotel</h3><button type="button" class="ba-close" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="ba-frame" data-cursor="drag">
+      <div class="ba-view" style="--x:50%">
+        <img class="ba-before" src="/rocketnest-library-preview-709668/img/ba-loft-old.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+        <img class="ba-after" src="/rocketnest-library-preview-709668/img/ba-loft-new.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+        <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span>
+        <span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+        <div class="ba-handle" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div>
+        <input class="ba-range" type="range" min="0" max="100" value="50" step="0.5" aria-label="Compare before and after">
+      </div>
+    </div>
+    <p class="fine ba-mhint" data-i18n="ba.drag">Drag the handle to compare. Press Esc to close.</p>
+  </div>
+</dialog>
+
+<!-- 05 SHOWCASE -->
+<section class="sec showcase" id="showcase" data-stage="5" data-name="Cruise">
+  <div class="sc-in">
+    <div class="wrap sc-head">
+      <p class="eyebrow"><b>05</b> <span data-i18n="sc.eyebrow">Demo concepts</span></p>
+      <h2 class="h2 split" data-i18n="sc.title">Demos we built for real businesses.</h2>
+      <p class="body" data-i18n="sc.body">Free demo concepts, made to show each business what its website could be. They are concepts, not paying clients.</p>
+    </div>
+    <div class="sc-track" tabindex="0" aria-label="Demo concepts">
+      <div class="sc-rail"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 EDITOR -->
+<section class="sec editor" id="editor" data-stage="6" data-name="Control">
+  <div class="wrap ed-grid">
+    <div class="ed-copy">
+      <p class="eyebrow"><b>06</b> <span data-i18n="ed.eyebrow">Editor &amp; care plan</span></p>
+      <h2 class="h2 split" data-i18n="ed.title">Mission control for your website.</h2>
+      <p class="body" data-i18n="ed.body">Every site comes with a hidden /admin editor. Change your promo, text and photos yourself, from your phone, in minutes. No developer needed.</p>
+      <ul class="ticks">
+        <li data-i18n="ed.l1">Promos and announcements</li>
+        <li data-i18n="ed.l2">Text in every language</li>
+        <li data-i18n="ed.l3">Photos</li>
+        <li data-i18n="ed.l4">Backups, fixes and updates by us</li>
+      </ul>
+      <p class="body care" data-i18n="ed.care">A small monthly care plan keeps your editor switched on. If a payment is ever missed, your website stays online. Only editing pauses.</p>
+    </div>
+    <div class="ed-demo">
+      <div class="ed-head">
+        <p class="ed-label" data-i18n="ed.demo">Interactive illustration · try it</p>
+        <ol class="ed-steps">
+          <li class="on"><b class="n">1</b><span data-i18n="ed.s1">Type a promo</span></li>
+          <li><b class="n">2</b><span data-i18n="ed.s2">Pick a photo</span></li>
+          <li><b class="n">3</b><span data-i18n="ed.s3">Watch the phone update</span></li>
+        </ol>
+      </div>
+      <div class="ed-ui">
+        <div class="ed-panel card">
+          <div class="ed-ph"><span class="dotlive"></span><b>/admin</b><span class="ed-plan" data-i18n="ed.planOn">Care plan active</span></div>
+          <label class="fld"><span class="fld-t"><b class="n">1</b><span data-i18n="ed.promo">Promo banner</span></span>
+            <textarea class="ed-promo" rows="1" maxlength="48" spellcheck="false">Happy hour 17:00–19:00 · 2 for 1</textarea>
+          </label>
+          <div class="fld"><span class="fld-t"><b class="n">2</b><span data-i18n="ed.photo">Main photo</span></span>
+            <div class="ed-photos" role="radiogroup" aria-label="Main photo">
+              <button type="button" role="radio" aria-checked="true" class="ph" data-ph="interior"><img src="/rocketnest-library-preview-709668/img/ed-interior-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph1">Interior</span></button>
+              <button type="button" role="radio" aria-checked="false" class="ph" data-ph="coffee"><img src="/rocketnest-library-preview-709668/img/ed-coffee-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph2">Coffee</span></button>
+              <button type="button" role="radio" aria-checked="false" class="ph" data-ph="dish"><img src="/rocketnest-library-preview-709668/img/ed-dish-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph3">Brunch</span></button>
+            </div>
+          </div>
+          <div class="ed-sws">
+            <div class="fld fld-row"><span data-i18n="ed.showPromo">Show promo</span><button type="button" class="sw ed-show" role="switch" aria-checked="true" aria-label="Show promo"><i></i></button></div>
+            <div class="fld fld-row ed-care"><span data-i18n="ed.carePlan">Care plan</span><button type="button" class="sw ed-careSw" role="switch" aria-checked="true" aria-label="Care plan active"><i></i></button></div>
+          </div>
+          <p class="ed-paused" role="status" aria-live="polite"></p>
+        </div>
+        <div class="ed-pv">
+          <p class="fld-t ed-pvt"><b class="n">3</b><span data-i18n="ed.preview">Live preview</span></p>
+          <div class="ed-phone" aria-label="Preview of the public website" role="img">
+            <div class="pp-notch"></div>
+            <div class="pp-screen">
+              <div class="pp-nav"><b class="pp-brand">Your Café</b><i></i></div>
+              <div class="pp-promo">Happy hour 17:00–19:00 · 2 for 1</div>
+              <div class="pp-hero"><img class="pp-img" src="/rocketnest-library-preview-709668/img/ed-interior.webp" alt="" width="560" height="420" loading="lazy" decoding="async">
+                <div class="pp-cap"><b class="pp-name">Your Café</b><span data-i18n="ed.tagline">Specialty coffee &amp; brunch</span></div>
+              </div>
+              <div class="pp-body"><em class="pp-book">Book a table</em>
+                <div class="pp-menu"><span><img src="/rocketnest-library-preview-709668/img/ed-coffee-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><small data-i18n="ed.ph2">Coffee</small></span><span><img src="/rocketnest-library-preview-709668/img/ed-dish-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><small data-i18n="ed.ph3">Brunch</small></span></div>
+              </div>
+              <div class="pp-live"><i></i><span data-i18n="ed.live">Site online</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 ABOUT -->
+<section class="sec about" id="about" data-stage="7" data-name="Crew">
+  <div class="wrap">
+    <p class="eyebrow"><b>07</b> <span data-i18n="ab.eyebrow">About us</span></p>
+    <h2 class="h2 split" data-i18n="ab.title">Two founders. One launchpad.</h2>
+    <p class="body ab-body" data-i18n="ab.body">RocketNest Design is Steven and Peter, a small web studio based in Thailand &amp; Belgium. We build every demo for one specific business, with its real content, and you only pay if you love the result.</p>
+    <div class="crew">
+      <article class="card crew-card reveal" data-tilt>
+        <div class="crew-av" aria-hidden="true">S</div>
+        <div><h3>Steven</h3><p data-i18n="ab.role">Co-founder</p><a href="mailto:steven@rocketnestdesign.com">steven@rocketnestdesign.com</a></div>
+      </article>
+      <article class="card crew-card reveal" data-tilt>
+        <div class="crew-av crew-av-b" aria-hidden="true">P</div>
+        <div><h3>Peter</h3><p data-i18n="ab.role">Co-founder</p><a href="mailto:peter@rocketnestdesign.com">peter@rocketnestdesign.com</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 08 CONTACT -->
+<section class="sec contact" id="contact" data-stage="8" data-name="Launch">
+  <div class="wrap ct-grid">
+    <div class="ct-anchor" aria-hidden="true"></div>
+    <div class="ct-copy">
+      <p class="eyebrow"><b>08</b> <span data-i18n="ct.eyebrow">Contact</span></p>
+      <h2 class="display split" data-i18n="ct.title">Ready for <em>liftoff?</em></h2>
+      <p class="lede" data-i18n="ct.body">Tell us your business name and your current website. We'll build your free demo.</p>
+      <a class="btn btn-primary btn-xl launch" data-cursor="launch" href="mailto:info@rocketnestdesign.com?subject=Free%20demo%20for%20my%20business"><span data-i18n="ct.cta">Get my free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <ul class="ct-list">
+        <li><span data-i18n="ct.general">General</span><a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></li>
+        <li><span>Steven</span><a href="mailto:steven@rocketnestdesign.com">steven@rocketnestdesign.com</a></li>
+        <li><span>Peter</span><a href="mailto:peter@rocketnestdesign.com">peter@rocketnestdesign.com</a></li>
+        <li><span data-i18n="ct.base">Based in</span><b data-i18n="ct.where">Thailand &amp; Belgium</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr sec-end" data-stage="9" data-name="Launch">
+  <div class="wrap ftr-in">
+    <img src="/rocketnest-library-preview-709668/img/wordmark.svg" alt="RocketNest Design" width="150" height="34" loading="lazy">
+    <p data-i18n="ft.legal">© 2026 RocketNest Design · Based in Thailand &amp; Belgium</p>
+    <p class="fine" data-i18n="ft.note">Demo concepts shown are unsolicited concept designs for real businesses, not client work. Business names belong to their owners.</p>
+  </div>
+</footer>
+
+</body>
+</html>
