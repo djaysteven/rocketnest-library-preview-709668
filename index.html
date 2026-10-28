@@ -45,8 +45,8 @@
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm');
   if(innerWidth<900||matchMedia('(pointer:coarse)').matches)d.classList.add('lite');})();
 </script>
-  <script type="module" crossorigin src="/rocketnest-library-preview-709668/assets/index-CjaWkhdl.js"></script>
-  <link rel="stylesheet" crossorigin href="/rocketnest-library-preview-709668/assets/index-X9vavwff.css">
+  <script type="module" crossorigin src="/rocketnest-library-preview-709668/assets/index-Cpl7SMZx.js"></script>
+  <link rel="stylesheet" crossorigin href="/rocketnest-library-preview-709668/assets/index-BTf-xVsu.css">
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
@@ -83,6 +83,7 @@
     <a href="#process" data-i18n="nav.process">Process</a>
     <a href="#showcase" data-i18n="nav.work">Demos</a>
     <a href="#editor" data-i18n="nav.editor">Editor</a>
+    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
     <a href="#about" data-i18n="nav.about">About</a>
   </nav>
   <div class="hdr-tools">
@@ -105,6 +106,7 @@
     <a href="#process" data-i18n="nav.process">Process</a>
     <a href="#showcase" data-i18n="nav.work">Demos</a>
     <a href="#editor" data-i18n="nav.editor">Editor</a>
+    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
     <a href="#about" data-i18n="nav.about">About</a>
     <a href="#contact" data-i18n="nav.contact">Contact</a>
   </nav>
@@ -339,6 +341,79 @@
   </div>
 </section>
 
+<!-- 06b PRICING (part of stage 06 for the 3D scene/HUD: no data-stage on purpose, see measure() in main.js)
+     TODO(Steven): prices are PLACEHOLDERS (revision pending). Change them in ONE place: PRICES in src/i18n.js (numbers below are only the no-JS fallback). -->
+<section class="sec pricing" id="pricing">
+  <!-- 06b PRICING (DRAFT v2 copy, low monthly fee, from business/2026-10-28/03-pricing-copy/pricing-section-copy.md).
+     TODO(Steven): numbers are PLACEHOLDERS until the final prices are in. Change them in ONE place: PRICES in src/i18n.js
+     (the numbers in this HTML are only the no-JS fallback; "N months free" is calculated from the monthly and yearly price). -->
+  <div class="wrap">
+    <p class="eyebrow"><b>06</b> <span data-i18n="pc.eyebrow">Pricing</span></p>
+    <h2 class="h2 split" data-i18n="pc.title">Your new website <em>from <span class="nw">฿<span data-price="care">299</span></span> a month.</em></h2>
+    <p class="body" data-i18n="pc.body">We build your new website first, for free. If you like it, keep it for a small monthly fee that includes hosting, updates and a change every month. Your domain is always yours.</p>
+    <div class="pc-demo card reveal">
+      <div><h3 class="pc-demo-h" data-i18n="pc.demoH">See your new website before you pay anything.</h3><p data-i18n="pc.demoP">We rebuild your current site as a modern, mobile-first demo using your own photos and text. Don’t love it? Ask for one free alternative design. Only pay if you want to keep it.</p></div>
+      <a class="btn btn-primary" href="#contact" data-cursor="launch"><span data-i18n="pc.demoB">Get my free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="pc-grid">
+      <article class="card pc pc-hot reveal">
+        <span class="pc-badge" data-i18n="pc.popular">Most popular</span>
+        <h3 class="pc-name">Care</h3>
+        <p class="pc-for" data-i18n="pc1.d">Everything a small business needs to look great online.</p>
+        <p class="pc-price"><b>฿<span data-price="care">299</span></b><span data-i18n="pc.month">/month</span></p>
+        <p class="pc-sub" data-i18n="pc.careYear">or ฿<span data-price="careYear">2,990</span> a year (<span data-free="care">2</span> months free)</p>
+        <p class="pc-setup" data-i18n="pc.careSetup">Easy Start: ฿<span data-price="careSetup">990</span> setup, 12-month minimum</p>
+        <ul class="ticks pc-list">
+          <li data-i18n="pc1.l1">Mobile-first website, up to 5 sections</li>
+          <li data-i18n="pc1.l2">Thai and English</li>
+          <li data-i18n="pc1.l3">Your real photos and a tidied-up logo</li>
+          <li data-i18n="pc1.l4">Call, LINE, WhatsApp and map buttons</li>
+          <li data-i18n="pc1.l5">Basic Google setup</li>
+          <li data-i18n="pc1.l6">Hosting, HTTPS and backups included</li>
+          <li data-i18n="pc1.l7">1 small change every month: prices, opening hours, menu or photos</li>
+        </ul>
+        <a class="btn btn-primary pc-btn" href="#contact" data-cursor="launch"><span data-i18n="pc.cta">Start with a free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="card pc reveal">
+        <h3 class="pc-name">Pro</h3>
+        <p class="pc-for" data-i18n="pc2.d">For hotels, clinics and restaurants that take bookings.</p>
+        <p class="pc-price"><b>฿<span data-price="pro">699</span></b><span data-i18n="pc.month">/month</span></p>
+        <p class="pc-sub" data-i18n="pc.proYear">or ฿<span data-price="proYear">6,990</span> a year (<span data-free="pro">2</span> months free)</p>
+        <p class="pc-setup" data-i18n="pc.proSetup">Easy Start: ฿<span data-price="proSetup">2,990</span> setup, 12-month minimum</p>
+        <ul class="ticks pc-list">
+          <li data-i18n="pc2.l1">Everything in Care</li>
+          <li data-i18n="pc2.l2">Up to 8 sections</li>
+          <li data-i18n="pc2.l3">Booking or enquiry tool</li>
+          <li data-i18n="pc2.l4">Simple admin page to edit the site yourself</li>
+          <li data-i18n="pc2.l5">2 extra languages (for example Chinese, Russian or German)</li>
+          <li data-i18n="pc2.l6">Google Business Profile tidy-up</li>
+          <li data-i18n="pc2.l7">Up to 3 small changes a month</li>
+        </ul>
+        <a class="btn btn-ghost pc-btn" href="#contact" data-cursor="launch"><span data-i18n="pc.cta">Start with a free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="card pc pc-alt reveal">
+        <h3 class="pc-name" data-i18n="pc3.n">Other ways to pay</h3>
+        <p class="pc-for" data-i18n="pc3.d">Same website, a different deal.</p>
+        <div class="pc-opt"><h4 data-i18n="pc3.q1">Prefer fewer months?</h4><p data-i18n="pc3.a1">Pay a higher setup fee (฿<span data-price="careUpfront">4,990</span> Care, ฿<span data-price="proUpfront">8,990</span> Pro) and the minimum is only 3 months.</p></div>
+        <div class="pc-opt"><h4 data-i18n="pc3.q2">Prefer no monthly fee?</h4><p data-i18n="pc3.a2">Buy the site outright for ฿<span data-price="outright">7,990</span>, one-time. Optional hosting only: ฿<span data-price="hosting">1,490</span> a year.</p></div>
+      </article>
+    </div>
+    <p class="fine pc-note" data-i18n="pc.note">Prices in Thai baht. A small change is up to 15 minutes of work. Unused changes don’t carry over. Bigger changes (new pages, a redesign, new features) are quoted first. Extra languages ฿<span data-price="extraLang">1,500</span> each. Domain at cost, always in your name.</p>
+    <div class="faq">
+      <h3 class="faq-h" data-i18n="faq.h">Questions</h3>
+      <details class="faq-i"><summary><span data-i18n="faq1.q">Do I pay anything for the demo?</span></summary><p data-i18n="faq1.a">No. The demo is free, and so is one alternative design. You only pay if you decide to keep the site.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq2.q">What does ฿<span data-price="care">299</span> a month include?</span></summary><p data-i18n="faq2.a">Your website, hosting, HTTPS, backups, updates, fixes, and one small change every month.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq3.q">What counts as a small change?</span></summary><p data-i18n="faq3.a">New prices, opening hours, a menu update, up to 2 new photos, or a short text change. Bigger work is quoted first, and you decide.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq4.q">Why a 12-month minimum?</span></summary><p data-i18n="faq4.a">It keeps the setup at only ฿<span data-price="careSetup">990</span>. Want a shorter minimum? Choose the ฿<span data-price="careUpfront">4,990</span> setup and the minimum is 3 months.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq5.q">Who owns the website and the domain?</span></summary><p data-i18n="faq5.a">The domain is always yours. The website is yours once the minimum term is paid, or straight away if you buy it outright.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq6.q">What if I stop after the minimum?</span></summary><p data-i18n="faq6.a">You keep your site. We hand over the files and help you move it, or keep hosting it for ฿<span data-price="hosting">1,490</span> a year.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq7.q">How do I pay?</span></summary><p data-i18n="faq7.a">By bank transfer to our business account (details on the invoice), monthly or yearly. You get a receipt for every payment.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq8.q">How long does it take?</span></summary><p data-i18n="faq8.a">Usually 3–7 days from your OK to go-live, depending on how quickly we get your feedback.</p></details>
+      <details class="faq-i"><summary><span data-i18n="faq9.q">Can I keep my current domain and email?</span></summary><p data-i18n="faq9.a">Yes. We only point your domain to the new site; your email stays where it is.</p></details>
+    </div>
+  </div>
+</section>
+
 <!-- 07 ABOUT -->
 <section class="sec about" id="about" data-stage="7" data-name="Crew">
   <div class="wrap">
@@ -366,7 +441,27 @@
       <p class="eyebrow"><b>08</b> <span data-i18n="ct.eyebrow">Contact</span></p>
       <h2 class="display split" data-i18n="ct.title">Ready for <em>liftoff?</em></h2>
       <p class="lede" data-i18n="ct.body">Tell us your business name and your current website. We'll build your free demo.</p>
-      <a class="btn btn-primary btn-xl launch" data-cursor="launch" href="mailto:info@rocketnestdesign.com?subject=Free%20demo%20for%20my%20business"><span data-i18n="ct.cta">Get my free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <!-- No backend: the form opens the visitor's email app with everything prefilled (mailto to info@). Needs no account or API key. -->
+      <form class="ct-form card" action="mailto:info@rocketnestdesign.com" method="post" enctype="text/plain" novalidate>
+        <div class="ct-row">
+          <label class="ct-f"><span data-i18n="cf.name">Your name</span><input name="name" autocomplete="name" required maxlength="80"></label>
+          <label class="ct-f"><span data-i18n="cf.biz">Business name</span><input name="business" autocomplete="organization" required maxlength="120"></label>
+        </div>
+        <div class="ct-row">
+          <label class="ct-f"><span data-i18n="cf.site">Current website</span><input name="website" type="text" inputmode="url" autocomplete="url" maxlength="200" placeholder="www.…"></label>
+          <label class="ct-f"><span data-i18n="cf.reach">LINE ID or phone</span><input name="reach" autocomplete="tel" maxlength="80"></label>
+        </div>
+        <label class="ct-f"><span data-i18n="cf.msg">Message (optional)</span><textarea name="message" rows="3" maxlength="1500"></textarea></label>
+        <button type="submit" class="btn btn-primary btn-xl launch" data-cursor="launch"><span data-i18n="ct.cta">Get my free demo</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="ct-status fine" role="status" aria-live="polite" data-i18n="cf.hint">This opens your email app with your message ready. Just press send.</p>
+      </form>
+      <!-- TODO(Steven): set the real LINE ID and WhatsApp number in CONTACT in src/i18n.js.
+           While they still start with TODO, these two buttons are hidden on the live site (shown, marked TODO, on the preview only). -->
+      <div class="ct-chat">
+        <a class="btn btn-ghost ct-line" data-chat="line" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s5.9-3.5 8-6C21.4 14.3 22 12.7 22 11c0-4.4-4.5-8-10-8z"/></svg>LINE</a>
+        <a class="btn btn-ghost ct-wa" data-chat="whatsapp" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.6-.1 1.1z"/></svg>WhatsApp</a>
+        <a class="btn btn-ghost" href="mailto:info@rocketnestdesign.com?subject=Free%20demo%20for%20my%20business"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg><span data-i18n="cf.email">Email</span></a>
+      </div>
       <ul class="ct-list">
         <li><span data-i18n="ct.general">General</span><a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></li>
         <li><span>Steven</span><a href="mailto:steven@rocketnestdesign.com">steven@rocketnestdesign.com</a></li>
@@ -383,6 +478,8 @@
   <div class="wrap ftr-in">
     <img src="/rocketnest-library-preview-709668/img/wordmark.svg" alt="RocketNest Design" width="150" height="34" loading="lazy">
     <p data-i18n="ft.legal">© 2026 RocketNest Design · Based in Thailand &amp; Belgium</p>
+    <!-- PREVIEW ONLY: privacy link is stripped from the live build by build.sh until the notice is approved -->
+    <p class="fine ftr-priv" data-preview-only><a href="privacy/" data-i18n="ft.privacy">Privacy notice</a></p>
     <p class="fine" data-i18n="ft.note">Demo concepts shown are unsolicited concept designs for real businesses, not client work. Business names belong to their owners.</p>
   </div>
 </footer>

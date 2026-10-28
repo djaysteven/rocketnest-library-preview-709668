@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- PREVIEW ONLY (draft, pending legal review). Not part of the live candidate; remove noindex when approved for launch. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Privacy notice · RocketNest Design</title>
+<meta name="description" content="How RocketNest Design handles personal data from our contact form and business outreach.">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="icon" href="../favicon-32.png" sizes="32x32">
+<link rel="preload" href="../fonts/sora.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Unbounded";src:url(../fonts/unbounded.woff2) format("woff2");font-weight:200 900;font-display:swap}
+@font-face{font-family:"Sora";src:url(../fonts/sora.woff2) format("woff2");font-weight:100 800;font-display:swap}
+@font-face{font-family:"Prompt";src:url(../fonts/prompt-thai-Regular.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0E01-0E5B,U+200C-200D,U+25CC}
+@font-face{font-family:"Prompt";src:url(../fonts/prompt-thai-SemiBold.woff2) format("woff2");font-weight:500 600;font-display:swap;unicode-range:U+0E01-0E5B,U+200C-200D,U+25CC}
+@font-face{font-family:"Prompt";src:url(../fonts/prompt-thai-Bold.woff2) format("woff2");font-weight:700 900;font-display:swap;unicode-range:U+0E01-0E5B,U+200C-200D,U+25CC}
+:root{--ink:#0A0A0B;--paper:#F3F5F8;--mute:#9AA3B2;--blue:#009DFE;--flame:#FD7203;--flame-2:#FEC00F;--line:rgba(255,255,255,.1);--display:"Unbounded","Prompt",system-ui,sans-serif;--sans:"Sora","Prompt",system-ui,-apple-system,"Segoe UI",sans-serif;--pad:clamp(20px,5vw,72px)}
+*{box-sizing:border-box}
+html{background:var(--ink);-webkit-text-size-adjust:100%}
+body{margin:0;color:var(--paper);font-family:var(--sans);font-size:clamp(16px,1.05vw,17px);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:clip;
+ background:radial-gradient(1200px 600px at 85% -10%,rgba(0,157,254,.14),transparent 60%),radial-gradient(900px 500px at -10% 30%,rgba(253,114,3,.06),transparent 60%),var(--ink)}
+a{color:var(--blue)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.hdr{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px var(--pad);background:rgba(10,10,11,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hdr img{display:block;height:30px;width:auto}
+.lang{display:flex;gap:2px;padding:4px;border:1px solid var(--line);border-radius:999px}
+.lang button{all:unset;cursor:pointer;min-width:40px;height:36px;display:grid;place-items:center;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.06em;color:var(--mute)}
+.lang button[aria-pressed=true]{background:#fff;color:var(--ink)}
+main{max-width:860px;margin:0 auto;padding:clamp(40px,8vw,96px) var(--pad) 72px}
+.back{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--mute);text-decoration:none;font-size:14px}
+.back:hover{color:#fff}
+.eyebrow{margin:18px 0 10px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.eyebrow b{color:var(--blue);margin-right:6px}
+h1{font:700 clamp(32px,5.4vw,56px)/1.05 var(--display);letter-spacing:-.02em;margin:0 0 18px;color:#fff;overflow-wrap:anywhere}
+h1 em{font-style:normal;color:var(--blue)}
+.lede{color:#B8C0CC;font-size:1.08em;margin:0 0 10px}
+.upd{color:var(--mute);font-size:13px;margin:0 0 34px}
+.draft{border:1px dashed rgba(254,192,15,.6);background:rgba(254,192,15,.06);color:#F6E3A6;border-radius:14px;padding:12px 16px;font-size:14px;margin:0 0 34px}
+section{padding:26px 0;border-top:1px solid var(--line)}
+h2{font:650 clamp(18px,2vw,22px)/1.3 var(--display);margin:0 0 12px;color:#fff}
+p{margin:0 0 12px}
+ul{margin:0 0 12px;padding-left:1.2em}
+li{margin:4px 0}
+li::marker{color:var(--blue)}
+.todo{background:rgba(254,192,15,.12);color:var(--flame-2);padding:1px 6px;border-radius:6px}
+.card{border:1px solid var(--line);background:rgba(17,18,22,.62);border-radius:22px;padding:20px 22px;margin-top:8px}
+footer{max-width:860px;margin:0 auto;padding:28px var(--pad) 48px;color:var(--mute);font-size:13px;border-top:1px solid var(--line)}
+html[lang=th] .eyebrow{letter-spacing:.04em}
+html[lang=th] body{line-height:1.85}
+article[hidden]{display:none}
+</style>
+</head>
+<body>
+<header class="hdr">
+  <a href="../" aria-label="RocketNest Design home"><img src="../img/wordmark.svg" alt="RocketNest Design" width="150" height="34"></a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="th" aria-pressed="false">TH</button>
+    <button type="button" data-lang="nl" aria-pressed="false">NL</button>
+  </div>
+</header>
+
+<main>
+<!-- TODO(Steven): data controller = the invoicing entity (still open). Replace the three [ ... ] placeholders below
+     (EN, TH and NL) with its legal name, registration number and address. Retention periods: confirm. Thai lawyer to review once. -->
+
+<article lang="en" data-l="en">
+  <a class="back" href="../">← Back to the website</a>
+  <p class="eyebrow"><b>/</b> Privacy</p>
+  <h1>Privacy <em>notice.</em></h1>
+  <p class="lede">Short and plain: what we collect, where we got it, why, and how to tell us to stop.</p>
+  <p class="upd">Last updated: 28 October 2026</p>
+  <p class="draft">Draft, pending legal review.</p>
+
+  <section><h2>1. Who we are</h2>
+    <p>RocketNest Design builds websites for small businesses in Thailand. The data controller is <span class="todo">[legal name, registration number and address of the invoicing entity: to be confirmed]</span>.</p>
+    <p>Questions or requests: <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></p></section>
+
+  <section><h2>2. What we collect</h2>
+    <p><strong>When you use our contact form:</strong> your name, business name, website, LINE ID or phone number, and your message. The form doesn’t store anything on our website. It opens your own email app, and we only receive what you choose to send.</p>
+    <p><strong>When we contact a business (outreach):</strong> the business name, its public contact details (business phone, LINE Official Account, email, and an owner’s or manager’s name if it is published), its website, and the public photos and text we use for a free demo. We also keep a short contact log: date, channel, where we found the contact, any reply, and opt-outs.</p>
+    <p><strong>When you visit this website:</strong> no tracking cookies and no advertising profiles. We may use cookie-free visit statistics (Cloudflare Web Analytics). Our host processes technical data such as your IP address to deliver the site and keep it secure. Your language choice is saved in your own browser only.</p></section>
+
+  <section><h2>3. Where we got your contact details</h2>
+    <p>Only from public sources: public business listings (such as Google Maps and Google Business Profiles), your own website, and your public social media pages or LINE Official Account. Every first message says where we found your contact.</p></section>
+
+  <section><h2>4. Why we use it</h2>
+    <ul>
+      <li>To answer your request and prepare your free demo (steps you asked for before a contract).</li>
+      <li>To offer our services to businesses, once and politely, based on our legitimate interest under Thailand’s Personal Data Protection Act (PDPA, section 24(5)).</li>
+      <li>To deliver, invoice and support the service if you become a client (contract and legal duties).</li>
+    </ul>
+    <p>We never sell your data and never add you to a mailing list.</p></section>
+
+  <section><h2>5. Demos</h2>
+    <p>A demo sits on a private, hidden link and uses only your existing public photos and text, to show you the idea. If you’re not interested, or you ask us to, we delete it. Demos without a deal are deleted after 30 days.</p></section>
+
+  <section><h2>6. Opt-out</h2>
+    <div class="card"><p>Don’t want to hear from us? Reply “no thanks” to any message, or email <a href="mailto:info@rocketnestdesign.com?subject=Opt-out">info@rocketnestdesign.com</a>. We stop right away and never contact you again. We keep only a minimal note (business name and contact) so we don’t message you by mistake.</p></div></section>
+
+  <section><h2>7. Who we share it with</h2>
+    <p>Only the service providers we need to run our work: email (Zoho Mail), website hosting (Cloudflare) and demo hosting (Vercel or GitHub Pages). Some of them process data outside Thailand, with recognised data-protection safeguards. Nobody else, unless the law requires it.</p></section>
+
+  <section><h2>8. How long we keep it</h2>
+    <p>Enquiries and outreach notes: up to 12 months after our last contact, unless you become a client. Client and invoice records: as long as tax and accounting law requires. Opt-out notes: kept so we can respect your choice.</p></section>
+
+  <section><h2>9. Your rights</h2>
+    <p>You can ask to see, correct or delete your data, to get a copy, to restrict how we use it, or to object to it at any time, including to direct marketing. Email <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a> and we reply within 30 days. You can also complain to Thailand’s Personal Data Protection Committee (PDPC), or, in the EU, to your local data protection authority.</p></section>
+</article>
+
+<article lang="th" data-l="th" hidden>
+  <a class="back" href="../">← กลับไปที่เว็บไซต์</a>
+  <p class="eyebrow"><b>/</b> ความเป็นส่วนตัว</p>
+  <h1>ประกาศ<em>ความเป็นส่วนตัว</em></h1>
+  <p class="lede">สั้นและเข้าใจง่าย: เราเก็บข้อมูลอะไร ได้มาจากที่ไหน ใช้ทำอะไร และจะบอกให้เราหยุดได้อย่างไร</p>
+  <p class="upd">ปรับปรุงล่าสุด: 28 ตุลาคม 2026</p>
+  <p class="draft">ฉบับร่าง รอการตรวจสอบทางกฎหมาย</p>
+
+  <section><h2>1. เราคือใคร</h2>
+    <p>RocketNest Design รับทำเว็บไซต์ให้ธุรกิจขนาดเล็กในประเทศไทย ผู้ควบคุมข้อมูลส่วนบุคคลคือ <span class="todo">[ชื่อนิติบุคคล เลขทะเบียน และที่อยู่ของผู้ออกใบแจ้งหนี้: รอยืนยัน]</span></p>
+    <p>สอบถามหรือส่งคำขอ: <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></p></section>
+
+  <section><h2>2. ข้อมูลที่เราเก็บ</h2>
+    <p><strong>เมื่อคุณใช้แบบฟอร์มติดต่อ:</strong> ชื่อ ชื่อธุรกิจ เว็บไซต์ LINE ID หรือเบอร์โทร และข้อความของคุณ แบบฟอร์มไม่ได้บันทึกข้อมูลใดไว้บนเว็บไซต์ของเรา แต่จะเปิดแอปอีเมลของคุณเอง และเราได้รับเฉพาะสิ่งที่คุณเลือกส่งมา</p>
+    <p><strong>เมื่อเราติดต่อธุรกิจ:</strong> ชื่อธุรกิจ ช่องทางติดต่อที่เปิดเผยต่อสาธารณะ (เบอร์โทรของธุรกิจ LINE Official Account อีเมล และชื่อเจ้าของหรือผู้จัดการหากมีการเผยแพร่) เว็บไซต์ รวมถึงรูปภาพและข้อความสาธารณะที่เราใช้ทำเดโมฟรี เรายังเก็บบันทึกการติดต่อสั้น ๆ ได้แก่ วันที่ ช่องทาง แหล่งที่พบช่องทางติดต่อ การตอบกลับ และการขอไม่รับการติดต่อ</p>
+    <p><strong>เมื่อคุณเข้าชมเว็บไซต์นี้:</strong> ไม่มีคุกกี้ติดตามและไม่มีการสร้างโปรไฟล์โฆษณา เราอาจใช้สถิติการเข้าชมแบบไม่ใช้คุกกี้ (Cloudflare Web Analytics) ผู้ให้บริการโฮสติ้งของเราประมวลผลข้อมูลทางเทคนิค เช่น หมายเลข IP เพื่อแสดงเว็บไซต์และรักษาความปลอดภัย ภาษาที่คุณเลือกจะบันทึกไว้ในเบราว์เซอร์ของคุณเท่านั้น</p></section>
+
+  <section><h2>3. เราได้ช่องทางติดต่อของคุณมาจากไหน</h2>
+    <p>จากแหล่งสาธารณะเท่านั้น: รายชื่อธุรกิจสาธารณะ (เช่น Google Maps และ Google Business Profile) เว็บไซต์ของคุณ และหน้าโซเชียลมีเดียหรือ LINE Official Account สาธารณะของคุณ ข้อความแรกทุกครั้งจะบอกว่าเราพบช่องทางติดต่อของคุณจากที่ใด</p></section>
+
+  <section><h2>4. เราใช้ข้อมูลเพื่ออะไร</h2>
+    <ul>
+      <li>เพื่อตอบคำขอของคุณและจัดทำเดโมฟรี (ขั้นตอนที่คุณร้องขอก่อนทำสัญญา)</li>
+      <li>เพื่อนำเสนอบริการของเราให้ธุรกิจอย่างสุภาพเพียงครั้งเดียว โดยอาศัยประโยชน์โดยชอบด้วยกฎหมายตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล (PDPA มาตรา 24(5))</li>
+      <li>เพื่อให้บริการ ออกใบแจ้งหนี้ และดูแลคุณหากคุณเป็นลูกค้า (ตามสัญญาและหน้าที่ตามกฎหมาย)</li>
+    </ul>
+    <p>เราไม่ขายข้อมูลของคุณ และไม่เพิ่มคุณเข้ารายชื่อรับอีเมลใด ๆ</p></section>
+
+  <section><h2>5. เดโม</h2>
+    <p>เดโมอยู่บนลิงก์ส่วนตัวที่ซ่อนไว้ และใช้เฉพาะรูปภาพและข้อความสาธารณะที่คุณมีอยู่แล้ว เพื่อให้คุณเห็นภาพ หากคุณไม่สนใจหรือขอให้ลบ เราจะลบทันที เดโมที่ไม่ได้ตกลงกันจะถูกลบภายใน 30 วัน</p></section>
+
+  <section><h2>6. การขอไม่รับการติดต่อ</h2>
+    <div class="card"><p>ไม่ต้องการให้เราติดต่ออีก? ตอบกลับว่า “ไม่สนใจ” ในข้อความใดก็ได้ หรืออีเมลถึง <a href="mailto:info@rocketnestdesign.com?subject=Opt-out">info@rocketnestdesign.com</a> เราจะหยุดทันทีและจะไม่ติดต่อคุณอีก เราเก็บเพียงบันทึกขั้นต่ำ (ชื่อธุรกิจและช่องทางติดต่อ) เพื่อไม่ให้ส่งข้อความถึงคุณโดยไม่ตั้งใจ</p></div></section>
+
+  <section><h2>7. เราแบ่งปันข้อมูลกับใคร</h2>
+    <p>เฉพาะผู้ให้บริการที่จำเป็นต่อการทำงาน: อีเมล (Zoho Mail) โฮสติ้งเว็บไซต์ (Cloudflare) และโฮสติ้งเดโม (Vercel หรือ GitHub Pages) บางรายประมวลผลข้อมูลนอกประเทศไทย โดยมีมาตรการคุ้มครองข้อมูลที่ได้รับการยอมรับ ไม่มีบุคคลอื่น เว้นแต่กฎหมายกำหนด</p></section>
+
+  <section><h2>8. เราเก็บข้อมูลไว้นานเท่าไร</h2>
+    <p>คำขอและบันทึกการติดต่อ: ไม่เกิน 12 เดือนหลังการติดต่อครั้งล่าสุด เว้นแต่คุณจะเป็นลูกค้า ข้อมูลลูกค้าและใบแจ้งหนี้: ตามระยะเวลาที่กฎหมายภาษีและบัญชีกำหนด บันทึกการขอไม่รับการติดต่อ: เก็บไว้เพื่อเคารพการตัดสินใจของคุณ</p></section>
+
+  <section><h2>9. สิทธิของคุณ</h2>
+    <p>คุณขอเข้าถึง แก้ไข หรือลบข้อมูลของคุณ ขอรับสำเนา ขอจำกัดการใช้ หรือคัดค้านการใช้ข้อมูลได้ทุกเมื่อ รวมถึงการตลาดแบบตรง อีเมลถึง <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a> แล้วเราจะตอบกลับภายใน 30 วัน คุณยังร้องเรียนต่อคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล (สคส.) ได้ หรือหากอยู่ในสหภาพยุโรป ร้องเรียนต่อหน่วยงานคุ้มครองข้อมูลในประเทศของคุณ</p></section>
+</article>
+
+<article lang="nl" data-l="nl" hidden>
+  <a class="back" href="../">← Terug naar de website</a>
+  <p class="eyebrow"><b>/</b> Privacy</p>
+  <h1>Privacy<em>verklaring.</em></h1>
+  <p class="lede">Kort en duidelijk: wat we verzamelen, waar we het vonden, waarom, en hoe je ons laat stoppen.</p>
+  <p class="upd">Laatst bijgewerkt: 28 oktober 2026</p>
+  <p class="draft">Ontwerp, juridische controle volgt.</p>
+
+  <section><h2>1. Wie we zijn</h2>
+    <p>RocketNest Design maakt websites voor kleine zaken in Thailand. De verwerkingsverantwoordelijke is <span class="todo">[juridische naam, ondernemingsnummer en adres van de factuurentiteit: nog te bevestigen]</span>.</p>
+    <p>Vragen of verzoeken: <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></p></section>
+
+  <section><h2>2. Wat we verzamelen</h2>
+    <p><strong>Als je ons contactformulier gebruikt:</strong> je naam, de naam van je zaak, je website, je LINE ID of telefoonnummer en je bericht. Het formulier bewaart niets op onze website. Het opent je eigen e-mailapp, en we ontvangen alleen wat jij verstuurt.</p>
+    <p><strong>Als we een zaak contacteren:</strong> de naam van de zaak, de publieke contactgegevens (telefoon van de zaak, LINE Official Account, e-mail, en de naam van de eigenaar of manager als die gepubliceerd is), de website, en de publieke foto’s en teksten die we gebruiken voor een gratis demo. We houden ook een kort contactlogboek bij: datum, kanaal, waar we het contact vonden, een eventueel antwoord en afmeldingen.</p>
+    <p><strong>Als je deze website bezoekt:</strong> geen trackingcookies en geen advertentieprofielen. We gebruiken mogelijk cookievrije bezoekstatistieken (Cloudflare Web Analytics). Onze host verwerkt technische gegevens zoals je IP-adres om de site te tonen en te beveiligen. Je taalkeuze wordt alleen in je eigen browser bewaard.</p></section>
+
+  <section><h2>3. Waar we je contactgegevens vonden</h2>
+    <p>Alleen uit publieke bronnen: openbare bedrijfsvermeldingen (zoals Google Maps en Google-bedrijfsprofielen), je eigen website, en je publieke sociale media of LINE Official Account. In elk eerste bericht staat waar we je contact vonden.</p></section>
+
+  <section><h2>4. Waarvoor we het gebruiken</h2>
+    <ul>
+      <li>Om je vraag te beantwoorden en je gratis demo te maken (stappen die je vroeg vóór een contract).</li>
+      <li>Om onze diensten één keer, beleefd, aan te bieden aan zaken, op basis van ons gerechtvaardigd belang onder de Thaise wet op de bescherming van persoonsgegevens (PDPA, artikel 24(5)).</li>
+      <li>Om de dienst te leveren, te factureren en te ondersteunen als je klant wordt (contract en wettelijke plichten).</li>
+    </ul>
+    <p>We verkopen je gegevens nooit en zetten je nooit op een mailinglijst.</p></section>
+
+  <section><h2>5. Demo’s</h2>
+    <p>Een demo staat op een privé, verborgen link en gebruikt alleen je bestaande publieke foto’s en teksten, om je het idee te tonen. Heb je geen interesse, of vraag je het ons, dan verwijderen we hem. Demo’s zonder akkoord worden na 30 dagen verwijderd.</p></section>
+
+  <section><h2>6. Afmelden</h2>
+    <div class="card"><p>Liever niets meer van ons horen? Antwoord “nee, bedankt” op eender welk bericht, of mail naar <a href="mailto:info@rocketnestdesign.com?subject=Opt-out">info@rocketnestdesign.com</a>. We stoppen meteen en contacteren je nooit meer. We bewaren alleen een minimale notitie (naam van de zaak en het contact), zodat we je niet per vergissing opnieuw berichten.</p></div></section>
+
+  <section><h2>7. Met wie we het delen</h2>
+    <p>Alleen met de dienstverleners die we nodig hebben: e-mail (Zoho Mail), websitehosting (Cloudflare) en demohosting (Vercel of GitHub Pages). Sommigen verwerken gegevens buiten Thailand, met erkende beschermingsmaatregelen. Met niemand anders, tenzij de wet het vereist.</p></section>
+
+  <section><h2>8. Hoe lang we het bewaren</h2>
+    <p>Aanvragen en notities van contacten: tot 12 maanden na ons laatste contact, tenzij je klant wordt. Klant- en factuurgegevens: zo lang als de fiscale en boekhoudkundige wetgeving vereist. Afmeldingen: bewaard zodat we je keuze kunnen respecteren.</p></section>
+
+  <section><h2>9. Je rechten</h2>
+    <p>Je kunt vragen om je gegevens in te zien, te verbeteren of te wissen, een kopie te krijgen, het gebruik te beperken of er op elk moment bezwaar tegen te maken, ook tegen direct marketing. Mail naar <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a> en we antwoorden binnen 30 dagen. Je kunt ook klacht indienen bij de Thaise Personal Data Protection Committee (PDPC), of in de EU bij je lokale gegevensbeschermingsautoriteit (in België: de Gegevensbeschermingsautoriteit).</p></section>
+</article>
+</main>
+<footer>© 2026 RocketNest Design · <a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></footer>
+<script>
+(function(){
+  var T={en:'Privacy notice · RocketNest Design',th:'ประกาศความเป็นส่วนตัว · RocketNest Design',nl:'Privacyverklaring · RocketNest Design'};
+  function set(l,persist){
+    if(!T[l])l='en';
+    document.documentElement.lang=l;document.title=T[l];
+    [].forEach.call(document.querySelectorAll('article[data-l]'),function(a){a.hidden=a.getAttribute('data-l')!==l});
+    [].forEach.call(document.querySelectorAll('.lang button'),function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-lang')===l))});
+    if(persist)try{localStorage.setItem('rn-lang',l)}catch(e){}
+  }
+  var q=(location.search.match(/[?&]lang=(en|th|nl)/)||[])[1],s=null;
+  try{s=localStorage.getItem('rn-lang')}catch(e){}
+  var n=(navigator.language||'').slice(0,2);
+  set(q||s||(n==='th'||n==='nl'?n:'en'),!!q);
+  [].forEach.call(document.querySelectorAll('.lang button'),function(b){b.addEventListener('click',function(){set(b.getAttribute('data-lang'),true)})});
+})();
+</script>
+</body>
+</html>
